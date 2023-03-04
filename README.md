@@ -34,3 +34,9 @@ git fetch
 git pull
   
 # Si deseas hacer pull de una rama específica, puedes utilizar el comando git pull <remote> <branch>, donde <remote> es el nombre del repositorio remoto y <branch> es el nombre de la rama remota que deseas descargar y fusionar en tu rama local actual.
+
+____________________________________________________________-
+
+# Hacer merge de una rama a otra: primero debes crear la nueva rama y hacer checkout
+
+git merge <branchname>
